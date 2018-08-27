@@ -10,4 +10,5 @@ let mix = require('laravel-mix');
  |
  */
 mix.setPublicPath('public')
-mix.js('assets/js/encuesta.js', 'public/js/encuesta.js');
+mix.js('assets/js/encuesta.js', 'public/js/encuesta.js')
+  .sass('assets/sass/style.scss', 'public/css/style.css');
